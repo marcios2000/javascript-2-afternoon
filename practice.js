@@ -13,7 +13,13 @@
   Give it a key of name with the value being your name, and another key of age with the value being your age. 
   Then alert your name using dot notation.
 */
+let me = {
+  name: "Marcio",
+  age: "35",
 
+}
+
+alert(me.name)
 //Code here
 
 
@@ -24,7 +30,14 @@
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. 
   Have the values to those keys be your favorite thing in that category.
 */
-
+let favoriteThings = {
+  band: "Marron 5",
+  food: "pizza",
+  person: "Jesus",
+  book: "the great Gastby",
+  movie: "titanic",
+  holiday: "labor day"
+}
 //Code here
 
 
@@ -32,7 +45,7 @@
 /*
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
-
+favoriteThings.car = "Lexus"
 //Code here
 
 
@@ -40,7 +53,7 @@
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
-
+favoriteThings.food = "Chicken Nuggets"
 //Code here
 
 
@@ -56,13 +69,17 @@
 */
 
 //Code here
+let backPack = {
 
-
+}
+let item = "firstPocket"
+backPack['item'] = 'chapstick';
+backPack.color = "Black"
 
 /*
   After you do the above, alert your entire backPack object.
 */
-
+alert.backPack
 //Code here
 
 
@@ -72,7 +89,7 @@ You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. 
 */
-
+console.log(backPack);
 //Code here
 
 
@@ -95,6 +112,9 @@ var user2 = {
   name -> 'Tyler S. McGinnis' and email -> 'tyler.mcginnis@devmounta.in'. 
   Make that change without modifying the original object code above.
 */
+user2.name = "Tyler S. Mcginnis"
+user2.email = "tyler.mcginnis@devmounta.in"
+
 
 //Code Here
 
