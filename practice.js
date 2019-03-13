@@ -55,6 +55,8 @@ favoriteThings.brand = "Lexus"
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
+
 //Code here
 
 
