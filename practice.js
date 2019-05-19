@@ -74,7 +74,7 @@ favoriteThings.book = "Harry Potter"
 //Code here
 let backPack = {}
 let item = "firstPocket"
-backPack['item'] = 'chapstick';
+backPack['firstPocket'] = 'chapstick';
 backPack.color = "Black"
 
 /*
@@ -98,7 +98,7 @@ console.log(backPack);
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
-var user2 = {
+let user2 = {
   name: 'Ty',
   age: 24,
   pwHash: 'U+Ldlngx2BYQk',
@@ -113,8 +113,10 @@ var user2 = {
   name -> 'Tyler S. McGinnis' and email -> 'tyler.mcginnis@devmounta.in'. 
   Make that change without modifying the original object code above.
 */
-user2.name = "Tyler S. Mcginnis"
-user2.email = "tyler.mcginnis@devmounta.in"
+
+
+user2.name= 'Tyler S. McGinnis'
+user2.email= 'tyler.mcginnis@devmounta.in'
 
 
 //Code Here
@@ -141,7 +143,7 @@ user2.email = "tyler.mcginnis@devmounta.in"
 */
 
 //Code Here
-let methodCollection = {};
+const methodCollection = {}
 
 
 
@@ -180,9 +182,10 @@ methodCollection.logHello();
 
 function makePerson(name, birthday, ssn){
   let obj = {};
- console.log(obj.name = name);
- console.log(obj.birthday = birthday);
- console.log(obj.ssn = ssn);
+ obj.name = name;
+ obj.birthday = birthday;
+ obj.ssn = ssn;
+ return obj
 }
 
 
